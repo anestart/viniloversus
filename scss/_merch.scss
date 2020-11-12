@@ -1,0 +1,86 @@
+/* Estilos Tienda */
+$green: #25EE9B;
+
+.shirtWrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    justify-content: space-evenly;
+}
+
+.card-body h5{
+    font-family: Nunito;
+    color: black;
+    font-weight: 700;
+}
+
+.card-body p {
+    font-family: Nunito;
+    color: black;
+}
+
+.btnBuy {    
+    color: $green;
+    border: 3px solid $green;
+    padding: 7px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.btnBuy:hover {
+    color:white;
+    border: white;
+    background-color: $green;
+}
+
+.btn2 {    
+    background-color: $green;
+    border-color: $green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+}
+
+.centerButton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.moverbtn:hover {
+    transform: translateY(-8px);
+    transition-duration: 0.2s;
+}
+
+@media screen and (max-width: 576px) {
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-title {
+        text-align: center;
+    }
+
+    .up3 {
+        position: relative;
+        top: -120px;
+    }  
+    }
+
+    

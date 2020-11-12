@@ -1,0 +1,245 @@
+/* Estilos Index */
+$green: #25EE9B;
+
+.titulo {
+    color: $green;
+    margin-bottom: 30px;
+    font-family: SF-Movie-Poster-Bold, sans-serif;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-size: 46px;
+    line-height: 10px;
+}
+
+.fondoPrincipal {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-holder {
+    margin-top: 60px;
+    position: relative;
+    display: block;      
+}
+
+.imgSingle { /*Imagen Portada single*/
+    position: relative;
+    width: auto;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.contenedor {
+    position: relative;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;    
+    padding-top: 420px;
+   
+   
+}
+   
+
+.form-inline {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.spoBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 250px;
+    margin-bottom: 20px;
+}
+
+.spoPlayer{
+    position: relative;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: block;
+    z-index: 100;
+    
+}
+
+.spoFollow {
+    position: relative;
+    display: block;
+    z-index: 999;
+}
+
+
+.fondo-trans { /*Foto de fondo*/
+    width: 100%;
+    max-height: 720px;
+    opacity: 0.03;
+    position: absolute;
+    z-index: -10;
+}
+
+
+
+.btn1 {    
+    background-color: transparent;
+    color: white;
+    border: 3px solid #25EE9B;
+    padding: 15px 32px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.labelText{
+    font-family: Nunito;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        margin: 0;
+        width: 100vw;
+        max-width: 100%;        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+        
+    }    
+
+    .fondoPrincipal {
+        max-width: 250px;            
+        display: block;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+    }
+    
+    .img-holder {
+        align-content: center;
+        position: relative;
+        display: block;  
+        left: 135px;    
+    }
+    
+    .imgSingle { /*Imagen Portada single*/
+        position: relative;
+        width: auto;
+        height: 100px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;      
+        
+    }
+
+    .fondo-trans {
+        display: none;
+    }
+    .contenedor {
+        max-width: 250px;  
+        height: auto;        
+        display: block;
+        flex-direction: column;
+        text-align: center;
+        top: -250px;
+        
+    }
+ 
+
+    .titulo {
+        align-items: center;
+        color: $green;        
+        font-family: SF-Movie-Poster-Bold, sans-serif;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        font-size: 40px;
+        line-height: 6px;
+        text-align: center;
+        
+    }
+
+    .spoPlayer{
+        position: relative;
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        display: block;
+        z-index: 100;
+        top:-200px;
+        left: 5px;
+        
+    }
+    
+    .spoFollow {
+        position: relative;
+        display: block;
+        z-index: 999;
+        top:-190px;
+        left: 30px;
+        justify-content: center;
+    }
+
+    p {
+        font-size: 14px;
+        text-align: center;
+        align-items: center;
+    }
+
+        
+
+    .socialContainer {        
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 17px;
+                          
+    }
+
+    .down {
+        top: -320px;
+    }
+
+    .form-inline {
+        position: relative;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        
+    }
+
+        
+    }
+
+    
+
+
+

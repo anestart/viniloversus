@@ -1,0 +1,94 @@
+/* Estilos Conciertos  */
+
+$green: #25EE9B;
+
+.grid {    
+    margin: 60px 20px 60px 60px;
+    display: grid;
+    grid-template-columns: 200px 300px 700px 150px;
+    align-items: center;
+    padding-bottom: 50px;
+    border-bottom: solid 1px white;        
+}
+
+.btnTickets {    
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    padding: 7px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btnTickets:hover {
+    background-color: $green;
+    border-color: $green;
+    color:black;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+.socialContainer {
+    margin: 80px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 17px;
+    padding-bottom: 50px;
+      
+}
+
+.socialContainer img:hover {
+    transform: translate(0,-10px);
+    transition-duration: 0.4s;
+}
+
+.socialContainer img {    
+    margin-right: 25px;       
+}
+
+@media screen and (max-width: 576px) {
+
+    html, body {
+        overflow-x: hidden;
+      }
+
+    .grid {           
+        position: relative;
+        left: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 80px;
+        padding-top: 50px;
+        border-bottom: solid 1px white; 
+        padding-left: 15px;    
+        padding-right: 15px; 
+        margin-top: -20px;  
+    }
+
+    .title3 {
+        margin-bottom: 20px;
+    }
+
+    .separador {
+        margin-bottom: 10px;
+    }
+
+    .separador2 {
+        margin-top: 50px;
+    }
+
+    .up2 {
+        position: relative;
+        top: -80px;
+    }
+
+}

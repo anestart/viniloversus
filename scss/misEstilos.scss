@@ -1,0 +1,31 @@
+@import "_navBar";
+@import "_inicio";
+@import "_music";
+@import "_videos";
+@import "_tour";
+@import "_merch";
+$green: #25EE9B;
+
+body {
+    margin: 0;
+    width: 100vw;
+    max-width: 100%;
+    background-color: #242323;
+    color: white;
+    p {
+        color: white;
+        font-family: "Nunito", sans-serif;
+        font-weight: 400;
+    }
+  
+}
+
+
+
+@font-face {
+    font-family: "SF-Movie-Poster-Bold";
+    src: url('../fonts/sf-movie-poster-bold-webfont.woff?1417439024') format('woff'), url('../fonts/sf-movie-poster-bold-webfont?1417439024') format('woff2');
+}
+
+
+

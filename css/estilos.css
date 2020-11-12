@@ -1,0 +1,635 @@
+nav {
+  text-decoration: none; }
+  nav div a {
+    color: white;
+    margin: 5px 5px 5px 20px; }
+    nav div a a {
+      color: white;
+      text-decoration: none; }
+
+nav div a:hover {
+  text-decoration: none;
+  opacity: 0.5;
+  transition-duration: 0.3s;
+  color: white; }
+
+.socialMedia {
+  margin-right: 250px;
+  text-decoration: none;
+  color: white;
+  font-family: SF-Movie-Poster-Bold, sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  padding: 40px 20px; }
+
+.tituloBarra {
+  margin-right: 55px; }
+
+#tituloBlanco {
+  color: white;
+  font-family: SF-Movie-Poster-Bold;
+  font-size: 2.625rem;
+  text-transform: uppercase;
+  letter-spacing: 2.5px; }
+
+@media screen and (max-width: 576px) {
+  .logoBanda {
+    width: 200px;
+    height: auto; }
+  .tituloBarra {
+    display: none; }
+  .navbar-toggler {
+    background-color: #bfbfbf;
+    border-color: white; } }
+
+/* Estilos Index */
+.titulo {
+  color: #25EE9B;
+  margin-bottom: 30px;
+  font-family: SF-Movie-Poster-Bold, sans-serif;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  font-size: 46px;
+  line-height: 10px; }
+
+.fondoPrincipal {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center; }
+
+.img-holder {
+  margin-top: 60px;
+  position: relative;
+  display: block; }
+
+.imgSingle {
+  /*Imagen Portada single*/
+  position: relative;
+  width: auto;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  flex-direction: column; }
+
+.contenedor {
+  position: relative;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  padding-top: 420px; }
+
+.form-inline {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px; }
+
+.spoBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 250px;
+  margin-bottom: 20px; }
+
+.spoPlayer {
+  position: relative;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  display: block;
+  z-index: 100; }
+
+.spoFollow {
+  position: relative;
+  display: block;
+  z-index: 999; }
+
+.fondo-trans {
+  /*Foto de fondo*/
+  width: 100%;
+  max-height: 720px;
+  opacity: 0.03;
+  position: absolute;
+  z-index: -10; }
+
+.btn1 {
+  background-color: transparent;
+  color: white;
+  border: 3px solid #25EE9B;
+  padding: 15px 32px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.labelText {
+  font-family: Nunito;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white; }
+
+.bold {
+  font-weight: bold;
+  letter-spacing: 0.5px; }
+
+@media screen and (max-width: 576px) {
+  body {
+    margin: 0;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+  .fondoPrincipal {
+    max-width: 250px;
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    position: relative; }
+  .img-holder {
+    align-content: center;
+    position: relative;
+    display: block;
+    left: 135px; }
+  .imgSingle {
+    /*Imagen Portada single*/
+    position: relative;
+    width: auto;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .fondo-trans {
+    display: none; }
+  .contenedor {
+    max-width: 250px;
+    height: auto;
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    top: -250px; }
+  .titulo {
+    align-items: center;
+    color: #25EE9B;
+    font-family: SF-Movie-Poster-Bold, sans-serif;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 6px;
+    text-align: center; }
+  .spoPlayer {
+    position: relative;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: block;
+    z-index: 100;
+    top: -200px;
+    left: 5px; }
+  .spoFollow {
+    position: relative;
+    display: block;
+    z-index: 999;
+    top: -190px;
+    left: 30px;
+    justify-content: center; }
+  p {
+    font-size: 14px;
+    text-align: center;
+    align-items: center; }
+  .socialContainer {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 17px; }
+  .down {
+    top: -320px; }
+  .form-inline {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; } }
+
+/* Estilos de Discografia */
+.discoMain {
+  display: flex;
+  align-items: center;
+  margin: 30px 0px 20px 250px; }
+
+.discoMain__info {
+  height: 300px;
+  margin-left: 30px;
+  padding-top: 250px;
+  justify-content: flex-end; }
+
+.imagenDisco {
+  height: 350px;
+  text-align: center; }
+
+.discoSecundary {
+  display: flex;
+  margin: 40px 60px 40px 60px;
+  justify-content: space-evenly;
+  margin-bottom: 70px; }
+
+.pretitle {
+  font-family: Nunito;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 16px;
+  margin-top: -8px; }
+
+section div p {
+  margin-top: 10px; }
+
+@media screen and (max-width: 576px) {
+  body {
+    margin: 0;
+    width: 100vw;
+    max-width: 100%; }
+  main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -280px; }
+    main div {
+      position: relative;
+      display: block;
+      justify-content: center;
+      align-content: center; }
+    main img {
+      max-width: 100vw;
+      position: relative;
+      display: block; }
+  .discoMain {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .discoMain__info {
+    padding-top: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    text-align: center; }
+  .discoSecundary {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; }
+  .imagenDisco {
+    margin-bottom: 35px; }
+  section div p {
+    display: none; }
+  .down2 {
+    top: -130px; } }
+
+/*Estilos de Videos*/
+.videoMain {
+  padding: 10px 5px 10px 55px;
+  margin-bottom: 240px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-content: center; }
+
+.videoPrincipal {
+  width: 1000px;
+  height: 500px;
+  margin-top: 20px; }
+
+.videoBlogInfo {
+  width: 500px;
+  height: 500px;
+  padding-top: 325px;
+  padding-right: 25px;
+  padding-left: 25px; }
+
+.socialMedia {
+  width: 500px;
+  height: 10px;
+  position: relative;
+  top: -25px; }
+
+.share {
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: inline;
+  position: relative;
+  margin-right: 60px;
+  margin-left: -20px; }
+
+.title2 {
+  font-family: Nunito;
+  font-size: 19px;
+  font-weight: 400;
+  display: inline-block; }
+
+.headline {
+  font-family: SF-Movie-Poster-Bold, sans-serif;
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin-top: -20px;
+  margin-bottom: -5px; }
+
+.videoSecundary {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  margin: -200px 30px -60px 30px; }
+
+.secondVideo {
+  margin-right: 30px; }
+
+.btnHolder {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px; }
+
+.socialIcon {
+  width: auto;
+  height: 20px;
+  margin-right: 5px;
+  display: inline; }
+
+.title {
+  font-family: Nunito;
+  font-size: 21px;
+  font-weight: 700; }
+
+.title3 {
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.shirtHolder {
+  width: 400px;
+  height: auto;
+  background-color: white; }
+
+@media screen and (max-width: 576px) {
+  .videoMain {
+    width: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .videoPrincipal {
+    width: 305px;
+    height: 200px;
+    position: relative;
+    left: 210px; }
+  .videoBlogInfo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 60px;
+    left: 120px;
+    top: -180px;
+    z-index: -15; }
+  .title2 {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 20px; }
+  .headline {
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    font-family: SF-Movie-Poster-Bold, sans-serif;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    position: relative; }
+  .share {
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: block;
+    position: relative;
+    left: 35px;
+    margin-top: 35px; }
+  .socialMedia {
+    width: 500px;
+    height: 10px;
+    position: relative;
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    left: 120px;
+    top: -50px; }
+  .socialIcon {
+    width: auto;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: -30px;
+    display: inline; }
+  .videoSecundary {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: -200px 5px -450px 30px;
+    position: relative;
+    top: -280px;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .secondVideo {
+    margin-bottom: 30px;
+    width: 305px;
+    height: 200px; }
+  .up {
+    position: relative;
+    top: -60px; } }
+
+/* Estilos Conciertos  */
+.grid {
+  margin: 60px 20px 60px 60px;
+  display: grid;
+  grid-template-columns: 200px 300px 700px 150px;
+  align-items: center;
+  padding-bottom: 50px;
+  border-bottom: solid 1px white; }
+
+.btnTickets {
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+  padding: 7px 28px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.btnTickets:hover {
+  background-color: #25EE9B;
+  border-color: #25EE9B;
+  color: black;
+  text-decoration: none;
+  transition-duration: 0.2s; }
+
+.socialContainer {
+  margin: 80px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 17px;
+  padding-bottom: 50px; }
+
+.socialContainer img:hover {
+  transform: translate(0, -10px);
+  transition-duration: 0.4s; }
+
+.socialContainer img {
+  margin-right: 25px; }
+
+@media screen and (max-width: 576px) {
+  html, body {
+    overflow-x: hidden; }
+  .grid {
+    position: relative;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    border-bottom: solid 1px white;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: -20px; }
+  .title3 {
+    margin-bottom: 20px; }
+  .separador {
+    margin-bottom: 10px; }
+  .separador2 {
+    margin-top: 50px; }
+  .up2 {
+    position: relative;
+    top: -80px; } }
+
+/* Estilos Tienda */
+.shirtWrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  justify-content: space-evenly; }
+
+.card-body h5 {
+  font-family: Nunito;
+  color: black;
+  font-weight: 700; }
+
+.card-body p {
+  font-family: Nunito;
+  color: black; }
+
+.btnBuy {
+  color: #25EE9B;
+  border: 3px solid #25EE9B;
+  padding: 7px 28px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.btnBuy:hover {
+  color: white;
+  border: white;
+  background-color: #25EE9B; }
+
+.btn2 {
+  background-color: #25EE9B;
+  border-color: #25EE9B;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: block; }
+
+.centerButton {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px; }
+
+.moverbtn:hover {
+  transform: translateY(-8px);
+  transition-duration: 0.2s; }
+
+@media screen and (max-width: 576px) {
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center; }
+  .card-title {
+    text-align: center; }
+  .up3 {
+    position: relative;
+    top: -120px; } }
+
+body {
+  margin: 0;
+  width: 100vw;
+  max-width: 100%;
+  background-color: #242323;
+  color: white; }
+  body p {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400; }
+
+@font-face {
+  font-family: "SF-Movie-Poster-Bold";
+  src: url("../fonts/sf-movie-poster-bold-webfont.woff?1417439024") format("woff"), url("../fonts/sf-movie-poster-bold-webfont?1417439024") format("woff2"); }

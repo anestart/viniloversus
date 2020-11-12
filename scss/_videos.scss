@@ -1,0 +1,222 @@
+/*Estilos de Videos*/
+$ancho: 1000px;
+
+.videoMain {
+    padding: 10px 5px 10px 55px;
+    margin-bottom: 240px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.videoPrincipal {
+    width: 1000px;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.videoBlogInfo {
+    width: $ancho/2;
+    height: 500px;    
+    padding-top: 325px;
+    padding-right: 25px;
+    padding-left: 25px;            
+}
+
+.socialMedia {
+    width: 500px;
+    height: 10px;        
+    position: relative; 
+    top: -25px;
+       
+}
+
+.share{
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: inline;
+    position: relative;    
+    margin-right: 60px;
+    margin-left: -20px;
+   
+}
+
+.title2 {
+    font-family: Nunito;
+    font-size: 19px;
+    font-weight: 400;
+    display: inline-block;     
+}
+
+.headline {
+    font-family: SF-Movie-Poster-Bold, sans-serif;
+    color:white;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-top: -20px;
+    margin-bottom: -5px;   
+ }
+
+
+.videoSecundary {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin: -200px 30px -60px 30px;
+}
+
+.secondVideo {
+    margin-right: 30px;    
+}
+
+.btnHolder {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;    
+}
+
+
+.socialIcon {
+    width: auto;
+    height: 20px;
+    margin-right: 5px;
+    display: inline;
+}
+
+
+.title{
+    font-family: Nunito;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.title3 {
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.shirtHolder {
+    width: 400px;
+    height: auto;
+    background-color: white;    
+}
+
+@media screen and (max-width: 576px) {
+
+    
+    .videoMain {
+        width: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .videoPrincipal {
+        width: 305px;
+        height: 200px;
+        position: relative;
+        left: 210px;
+    }
+
+    .videoBlogInfo {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        padding-top: 60px;
+        left: 120px;
+        top: -180px;
+        z-index: -15;
+
+    }
+
+    .title2 {
+        font-family: Nunito;
+        font-size: 16px;
+        font-weight: 400;
+        display: inline-block; 
+        margin-bottom: 20px;    
+    }
+
+    .headline {
+        padding-left: 100px;
+        padding-right: 100px;
+        align-items: center;           
+        font-family: SF-Movie-Poster-Bold, sans-serif;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;        
+        position: relative;
+        
+    }
+
+    .share{
+        font-family: Nunito;
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        display: block;
+        position: relative;    
+        left: 35px;
+        margin-top: 35px;
+       
+    }
+
+    .socialMedia {
+        width: 500px;
+        height: 10px;     
+        position: relative; 
+        display: block;      
+        flex-direction: column;
+        text-align: center;        
+        left: 120px;
+        top: -50px;
+}
+
+    .socialIcon {
+        width: auto;
+        height: 20px;
+        margin-right: 5px;
+        margin-top: -30px;
+        display: inline;
+    }
+
+    .videoSecundary {
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        margin: -200px 5px -450px 30px;
+        position: relative;
+        top: -280px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .secondVideo {
+        margin-bottom: 30px;
+        width: 305px;
+        height: 200px;
+    }
+
+    .up {
+        position: relative;
+        top: -60px;
+    }
+}
